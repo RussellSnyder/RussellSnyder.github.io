@@ -185,13 +185,28 @@ hr {
   color: #528fd9 !important;
   font-weight: 500;
 }
-.navbar-nav a.active {
-  font-weight: 700;
+/* Make active navs on corresponding pages */
+.home #home,
+.about #about,
+.contact #contact,
+.community #community {
+  font-weight: 700 !important;
   color: black !important;
   text-shadow: 1px 3px 8px #27607b;
 }
 .img-full {
   min-width: 100%;
+}
+.brand name {
+  color: #0f4261;
+  text-shadow: #b5620f;
+}
+.brand b {
+  font-style: oblique;
+}
+.brand small {
+  font-size: 0.5em !important;
+  color: #c93636;
 }
 .brand-before,
 .brand-name {
