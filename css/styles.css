@@ -133,9 +133,8 @@ body {
   background-color: black;
   display: inline-block;
   width: 100% !important;
-  margin: 15% 0px 0px 0px;
+  margin: 11px 0px 34px 0px;
   text-align: center;
-  margin-bottom: 20px;
 }
 .myName h1 {
   display: inline-block;
@@ -699,7 +698,7 @@ nav {
 }
 nav hr {
   height: 1px;
-  width: 90%;
+  width: 80%;
   text-align: center;
   padding: 0px;
   margin-top: 2px;
@@ -707,16 +706,20 @@ nav hr {
   -webkit-animation: fade-in 3.5s 1;
 }
 nav ul {
+  width: 80%;
   list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 nav ul li {
   display: inline;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  line-height: 190%;
 }
 nav ul li a {
   font-family: 'Overlock', cursive;
-  font-size: 18.2px;
+  font-size: 19.6px;
 }
 nav a:hover {
   text-decoration: none;
