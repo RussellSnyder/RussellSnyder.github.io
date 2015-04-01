@@ -1146,8 +1146,8 @@ nav ul li:nth-child(4) a:hover {
   padding-top: 0px;
   visibility: hidden;
   color: white;
-  width: 40%;
-  margin-left: 30%;
+  width: 70%;
+  margin-left: 15%;
   background: rgba(255, 255, 255, 0.08);
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.08) 0%, rgba(222, 222, 211, 0.1) 48%, rgba(255, 255, 255, 0.12) 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.08)), color-stop(48%, rgba(222, 222, 211, 0.1)), color-stop(100%, rgba(255, 255, 255, 0.12)));
@@ -1162,5 +1162,5 @@ nav ul li:nth-child(4) a:hover {
   border: 2px solid rgba(255, 255, 255, 0.13);
 }
 #infoText p {
-  line-height: 10px;
+  line-height: 15px;
 }
