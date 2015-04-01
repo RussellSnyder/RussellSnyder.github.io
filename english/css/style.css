@@ -273,6 +273,12 @@ hr {
   font-weight: 700;
   font-size: 95%;
 }
+/* fb sheeeeet */
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget iframe[style] {
+  width: 100% !important;
+}
 footer {
   background: #ffc261;
   background: -moz-radial-gradient(center, ellipse cover, #ffc261 28%, #ffd16a 59%, rgba(255, 218, 112, 0.86) 77%, rgba(255, 227, 117, 0.86) 95%);
