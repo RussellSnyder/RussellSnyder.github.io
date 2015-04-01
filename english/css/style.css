@@ -257,6 +257,22 @@ hr {
   float: none;
   margin: 0 auto 0;
 }
+.review-photos {
+  padding-left: 5%;
+  padding-bottom: 10px;
+  border-radius: 30%;
+}
+.review-quote {
+  text-indent: 10px;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+.review-name {
+  text-align: right;
+  margin-right: 20%;
+  font-weight: 700;
+  font-size: 95%;
+}
 footer {
   background: #ffc261;
   background: -moz-radial-gradient(center, ellipse cover, #ffc261 28%, #ffd16a 59%, rgba(255, 218, 112, 0.86) 77%, rgba(255, 227, 117, 0.86) 95%);
