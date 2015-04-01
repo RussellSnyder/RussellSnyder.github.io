@@ -21,6 +21,28 @@
 
     <!-- css stuff -->
     <link href="css/styles.css" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/infoDisplay.js"></script>
+<!--
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#infoIcon").on({
+        mouseenter: function(){
+            $("#infoText").css("color", "blue");
+        },  
+        mouseleave: function(){
+            $("#infoText").css("color", "red");
+        }, 
+        click: function(){
+            $("#infoText").css("color", "yellow");
+        }  
+    });
+});
+</script>
+-->
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -82,6 +104,27 @@
 	<hr>
 	<hr>
 	</nav>
+
+<div id="info">
+
+<div id="infoIcon" class="color random-color">i</div>
+
+<div id="infoText">
+
+	<h2 class="color orange">Welcome!</h2>
+<p>You've found the landing page for all my work and art</p>
+
+<p class="color white-speckle-color">I do lots of stuff and I like to learn about more stuff</p>  
+<p class="color cyan">What do you do?  Let's collaborate, eh?</p>
+<p class="color white-maybe-color"> Pick a site above and let's get started</p> 
+<p class="color orange">See you around</p>
+</div>
+</div>
+
+
+    <script type="text/javascript" src="js/randomColors.js"></script>
+
+
 </body>
 
 
