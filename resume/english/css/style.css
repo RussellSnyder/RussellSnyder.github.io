@@ -1,0 +1,307 @@
+/* backgrounds */
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+/*!
+ * Preboot v2
+ *
+ * Open sourced under MIT license by @mdo.
+ * Some variables and mixins from Bootstrap (Apache 2 license).
+ */
+/*Typography */
+body {
+  font-size: 100%;
+  color: #4f4f4f;
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+span {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+h1 {
+  font-size: 3.0em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.875em;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.75em;
+  margin: 2% 0px 1% 0px;
+  font-weight: 600;
+  color: black;
+}
+h4 {
+  font-size: 1.6em;
+}
+p,
+a,
+h5,
+ul,
+li,
+span {
+  font-size: 1em;
+  line-height: 1.1em;
+  text-transform: none;
+}
+h6 {
+  font-size: 1.25em;
+}
+li {
+  line-height: 1.1em;
+}
+li bold {
+  font-weight: 600;
+}
+a {
+  color: #b98017;
+  text-decoration: none;
+}
+.banner {
+  text-align: center;
+  padding: 20px;
+  background: url('http://api.thumbr.it/whitenoise-361x370.png?background=9da1a3ff&noise=d1d1d1&density=28&opacity=23');
+}
+.banner h1 {
+  color: white;
+}
+.banner h2 {
+  color: #f9f8f6;
+}
+.pageOne {
+  height: 1191px;
+  width: 842px;
+  display: block;
+  clear: both;
+}
+.pageTwo {
+  width: 842px;
+}
+.pageTwo .main {
+  margin-left: 245px;
+  width: 71%;
+}
+.sidebar {
+  text-align: right;
+  width: 27%;
+  font-size: 1em;
+  float: left;
+}
+.sidebar hr {
+  width: 100%;
+  display: block;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar ul li {
+  line-height: 1.2em;
+  font-size: 1.1em;
+}
+.sidebar h3 {
+  font-size: 0.9em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: auto;
+  width: 150px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 40px;
+}
+.sidebar .sidebar-text {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  clear: both;
+}
+.sidebar img {
+  text-align: center;
+  width: 100%;
+  padding: 5%;
+  padding-bottom: 0%;
+  margin-right: 10%;
+}
+.main {
+  width: 71%;
+  margin-left: 2%;
+  float: left;
+}
+.main #objective h5 {
+  text-indent: 10px;
+}
+.main .article {
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 18px;
+  vertical-align: middle;
+}
+.main .article .date {
+  float: left;
+  display: inline;
+  width: 80px;
+  color: #717171;
+  font-size: 0.8em;
+  line-height: 1em;
+  margin-right: 10px;
+}
+.main .article h5 {
+  display: inline;
+  width: 500px;
+  text-transform: none;
+  vertical-align: text-top;
+}
+.main .article h5 bold {
+  font-weight: 700;
+  margin-right: 1%;
+}
+.main .article .location {
+  text-align: right;
+  float: right;
+  font-size: 0.8em;
+  line-height: 1em;
+  color: #717171;
+}
+.main .article .articleText {
+  margin-left: 90px;
+  margin-top: 0px;
+}
+.main .article .articleText p#summary {
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+}
+.main .article .articleText p {
+  line-height: 1.3em;
+}
+.main .article .articleText ul {
+  list-style-position: inside;
+  margin-top: 2px;
+}
+.main .article .articleText ul li {
+  text-indent: 3%;
+}
+.main .article .articleText ul li span {
+  position: relative;
+  left: -5px;
+  line-height: 1.3em;
+}
+#references p {
+  line-height: 1.2em;
+  font-style: italic;
+  font-weight: 400;
+  text-align: justify;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 4px double #717171;
+}
+@media print {
+  .banner {
+    text-align: center;
+    padding: 20px;
+    background: white;
+  }
+  .banner h1 {
+    color: black;
+  }
+  .banner h2 {
+    color: grey;
+  }
+}
