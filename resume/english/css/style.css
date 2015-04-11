@@ -191,6 +191,13 @@ a {
 .sidebar ul {
   list-style: none;
 }
+.sidebar ul h4 {
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 0.7em;
+  line-height: 1.3em;
+  margin: 5px 0px 0px 0px;
+}
 .sidebar ul li {
   line-height: 1.2em;
   font-size: 1.1em;
@@ -283,6 +290,16 @@ a {
   left: -5px;
   line-height: 1.3em;
 }
+.workIcons {
+  position: absolute;
+  right: 120px;
+  padding-top: 100px;
+}
+.workIcons img {
+  display: block;
+  clear: both;
+  padding: 25px 0px 25px 0px;
+}
 #references p {
   line-height: 1.2em;
   font-style: italic;
@@ -303,5 +320,14 @@ a {
   }
   .banner h2 {
     color: grey;
+  }
+  body {
+    color: black;
+  }
+  body a {
+    color: grey;
+  }
+  .workIcons img {
+    visibility: hidden;
   }
 }
