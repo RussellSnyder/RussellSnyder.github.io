@@ -246,7 +246,7 @@ a {
   width: 80px;
   color: #717171;
   font-size: 0.8em;
-  line-height: 1em;
+  line-height: 1.2em;
   margin-right: 10px;
 }
 .main .article h5 {
@@ -283,7 +283,8 @@ a {
   margin-top: 2px;
 }
 .main .article .articleText ul li {
-  text-indent: 3%;
+  margin-left: 5%;
+  text-indent: -4%;
 }
 .main .article .articleText ul li span {
   position: relative;
@@ -309,6 +310,10 @@ a {
   margin-bottom: 30px;
   border-bottom: 4px double #717171;
 }
+.printOnly {
+  visibility: hidden;
+  height: 0px;
+}
 @media print {
   .banner {
     text-align: center;
@@ -321,7 +326,9 @@ a {
   .banner h2 {
     color: grey;
   }
-  body {
+  body,
+  .date,
+  .location {
     color: black;
   }
   body a {
@@ -329,5 +336,13 @@ a {
   }
   .workIcons img {
     visibility: hidden;
+  }
+  .noPrint {
+    visibility: hidden;
+    height: 0px;
+  }
+  .printOnly {
+    visibility: visible;
+    height: auto;
   }
 }
