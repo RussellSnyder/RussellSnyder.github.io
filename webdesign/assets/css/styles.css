@@ -33,7 +33,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3aaa64;
+  color: #df9a00;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -42,7 +42,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #ac7700;
 }
 a:focus {
   text-decoration: none;
@@ -97,7 +97,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #3aaa64;
+  background: #df9a00;
   font-size: 12px;
 }
 a.dotted-link {
@@ -256,7 +256,7 @@ iframe {
   position: relative;
 }
 .latest .featured-image .text {
-  background: #3aaa64;
+  background: #df9a00;
   color: #fff;
 }
 .latest .featured-image .ribbon {
@@ -397,7 +397,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #ffbe2d;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -407,13 +407,13 @@ iframe {
   margin-bottom: 0;
 }
 .testimonials .item .quote {
-  color: #3974b2;
+  color: #f8972e;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #ffd679;
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #ffc646;
   margin-right: 15px;
 }
 .testimonials .item .source {
@@ -464,7 +464,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #79d19a;
+  color: #ffc646;
 }
 /* Blog Section */
 .blog .item {
