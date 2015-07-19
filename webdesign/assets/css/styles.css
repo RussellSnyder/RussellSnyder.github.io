@@ -383,7 +383,7 @@ iframe {
   margin-bottom: 10;
 }
 .skills .skillset .level-title .level-label {
-  color: #ccd1d6;
+  color: #b0b7bf;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
@@ -392,11 +392,23 @@ iframe {
   top: 0;
 }
 .skills .skillset .level-bar {
-  height: 15px;
-  background: #f8e9e9;
+  height: 25px;
+  background: #ffedc5;
+}
+.skills .skillset .level-bar .expert {
+  margin-right: 1%;
+}
+.skills .skillset .level-bar .pro {
+  margin-right: 10%;
+}
+.skills .skillset .level-bar .advanced {
+  margin-right: 20%;
+}
+.skills .skillset .level-bar .functional {
+  margin-right: 35%;
 }
 .skills .skillset .level-bar-inner {
-  height: 15px;
+  height: 20px;
   background: #ffbe2d;
 }
 /* Testimonials section */
