@@ -1,1 +1,8 @@
-config_dev.yml
+name: frontend-blog
+description: breaking into the tech world through the frontend door
+markdown: redcarpet
+pygments: true
+url: http://locahost:4000
+baseurl: /russellsnyder.io/frontend-blog
+source: /Users/russellsnyder/Russell_Stuff/zRussellWebsite_Dev/blog/jekyll/
+destination: /Users/russellsnyder/Russell_Stuff/____RussellSnyder.io/RussellSnyder.github.io/frontend-blog/
