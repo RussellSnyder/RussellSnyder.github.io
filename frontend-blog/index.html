@@ -1,58 +1,128 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+  <title></title>
+  <meta name="description" content="">
 
-    <title>Frontend Develepment Blog by RussellSnyder</title>
-  </head>
+  <link rel="stylesheet" href="/russellsnyder.io/frontend-blog/css/main.css">
+  <link rel="canonical" href="/russellsnyder.io/frontend-blog/">
+  <link rel="alternate" type="application/rss+xml" title="" href="/russellsnyder.io/frontend-blog/feed.xml" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/russellsnyder.io/frontend-blog/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/russellsnyder.io/frontend-blog/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/russellsnyder.io/frontend-blog/images/favicon-16x16.png">
+</head>
+
 
   <body>
-
-    <header>
-      <div class="container">
-        <h1>var frontEndBlog</h1>
-        <h2></h2>
-
-        <section id="downloads">
-          <a href="https://github.com/RussellSnyder/frontend-blog/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/RussellSnyder/frontend-blog/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/RussellSnyder/frontend-blog" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+    <header class="site-header">
+  <div class="wrapper">
+    <div class="row">
+      <div class="hidden-xs col-sm-2 vcenter">
+          <img class="img-responsive align-center" src="images/starSand.png">
       </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>var blog = Russell.toFrontEndDeveloper();</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
+      <div class="col-md-9 vcenter">
+        <h1>Russell.toFrontEndDeveloper();</h1>
+      </div>
     </div>
 
-    
+  </div>
+
+</header>
+
+        <div class="navbar">
+        <nav class="navbar" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+                <a><i class="fa fa-bars fa-2x"></i></a>
+              </span>
+            </button>
+            <a class="navbar-brand" href="http://russellsnyder.io/frontend-blog/index.html">Frontend-Blog</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="http://russellsnyder.io/frontend-blog/about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog-Posts <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><i class="fa fa-pencil"></i> Recent</a></li>
+                  <li><a href="#"><i class="fa fa-calendar"></i> Past</a></li>
+                  <hr>
+                  <li><a href="#"><i class="fa fa-file"></i> Categories</a></li>
+                  <li><a href="#"><i class="fa fa-tags"></i> Tags</a></li>
+                </ul>
+              </li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+
+            </ul>
+<!--             <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+ -->          </div><!-- /.navbar-collapse -->
+
+        </nav>
+      </div>
+
+
+    <div class="container-fluid">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-7 page-content">
+        <h2>Journey.begin();</h2>
+        <p>I can’t ignore it anymore.  There are just too many jobs waiting to be filled in the tech industry for those with the right skill set.  My journey is to collect the hard skills needed to land a frontend developer job!
+</p>
+<p>Join me on my adventure to enter the tech industry through the front door as a frontend Developer.  This daily blog will focus on documenting the problems and epiphanies I have while learning Front End technologies.</p>
+
+<p>Feel free to send me comments or advice for my journey about where I can find answers or resources to the challenges I may face.</p>
+<p>Oh and check out all my other stuff at <a href="http://russellsnyder.io">RussellSnyder.io</a>
+      </div>
+      <div class="pull-right col-sm-4 hidden-xs">      
+          
+    <h3><a href="/russellsnyder.io/frontend-blog/posts/2015/09/10/blogging-with-jekyll.html">Getting this blog underway with Jekyll</a></h3>
+    <p><small><strong>September 10, 2015</strong> .  . <a href="http://erjjones.github.com/posts/2015/09/10/blogging-with-jekyll.html#disqus_thread"></a></small></p>      
+  
+    <h3><a href="/russellsnyder.io/frontend-blog/jekyll/update/2015/09/10/welcome-to-jekyll.html">Welcome to Jekyll!</a></h3>
+    <p><small><strong>September 10, 2015</strong> .  . <a href="http://erjjones.github.com/jekyll/update/2015/09/10/welcome-to-jekyll.html#disqus_thread"></a></small></p>      
+  
+
+      </div>
+
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+		<div class="row">            
+			<div class="xs-hidden col-sm-6 vcenter">
+  					<div id="blog-object">
+  <h2>var blog = {</h2>
+  <h3>&nbsp;&nbsp;author: "Russell Snyder",<br> 
+  &nbsp;&nbsp;quest:"Front-End"<br>   
+  &nbsp;&nbsp;updates:"Daily"<br>
+  &nbsp;&nbsp;status:"Novice"</h3>
+  <h2>};</h2>
+</div>
+
+			</div>
+      <div class="col-xs-12 col-sm-4 text-center vcenter">
+            <a href="http://russellsnyder.io">RussellSnyder.io</a>
+      </div>
+		</div>
+  </div>
+
+</footer>
+<script type="text/javascript" src="javascripts/jquery.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap.js"></script>
+<script type="text/javascript" src="javascripts/main.js"></script>
+
+
   </body>
+
 </html>
